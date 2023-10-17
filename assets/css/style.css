@@ -1,0 +1,29 @@
+@font-face {
+    font-family:'proxl';
+    src:url('../webfonts/Proximanova_light.otf');
+}
+@font-face {
+    font-family:'proxb';
+    src:url('../webfonts/Proximanove_bold.otf');
+}
+@font-face {
+    font-family:'proxr';
+    src:url('../webfonts/Proximanova_regular.ttf');
+}
+header{
+    background:url('../images/header.png') no-repeat;
+}
+.navbar-brand{
+    font-family:proxl;
+    font-size:42.35px;
+}
+.navbar-brand span{
+    font-family:proxb;
+}
+.navbar-nav .nav-link{
+    color:white;
+}
+.navbar-nav .nav-link.active{
+    font-weight:bold;
+    color:white;
+}
