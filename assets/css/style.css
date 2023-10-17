@@ -12,7 +12,9 @@
 }
 header{
     background:url('../images/header.png') no-repeat;
+    background-size:cover;
 }
+
 .navbar-brand{
     font-family:proxl;
     font-size:42.35px;
