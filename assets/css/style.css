@@ -17,10 +17,14 @@
 .pt-20{
     padding-top:20px;
 }
-.my-135{
-    margin:135px 0px;
-}
+.my-drones{
+    margin-top:16px;
+    margin-top:16px;
 
+}
+.btnbluetop{
+    margin-top:30px;
+}
 #topheader{
     background:url('../images/header.png') no-repeat;
     background-size:cover;
@@ -64,5 +68,17 @@ button:hover{
     height: 20px;
     top:16px;
 }
-
+#btnblue{
+    background:#28479a;
+}
 /*media queries*/
+@media (min-width: 992px) {
+    .my-drones{
+        margin-top:135px;
+        margin-bottom:135px;
+
+    }
+    .btnbluetop{
+        margin-top:100px;
+    }
+}
