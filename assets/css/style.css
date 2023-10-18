@@ -71,6 +71,12 @@ button:hover{
 #btnblue{
     background:#28479a;
 }
+.gradient-text {
+    background: linear-gradient(to right, #cb0035, #db500a); /* Definieer je gewenste kleurverloop als achtergrond */
+    -webkit-background-clip: text; /* Hiermee wordt de achtergrond van de tekst bepaald door de achtergrond van het element */
+    color: transparent; /* Maak de oorspronkelijke tekst transparant */
+}
+
 /*media queries*/
 @media (min-width: 992px) {
     .my-drones{
