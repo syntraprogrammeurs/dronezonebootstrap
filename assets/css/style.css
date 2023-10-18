@@ -53,3 +53,13 @@ h1{
 button:hover{
     background:red;
 }
+.mac-mouse {
+    width: 50px;
+    height: 80px;
+}
+.mouse-wheel {
+    width: 3px;
+    height: 20px;
+    top:16px;
+}
+
