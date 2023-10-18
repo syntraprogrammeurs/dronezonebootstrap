@@ -10,6 +10,15 @@
     font-family:'proxr';
     src:url('../webfonts/Proximanova_regular.ttf');
 }
+
+.pb-60{
+    padding-bottom:60px;
+}
+.pt-20{
+    padding-top:20px;
+}
+
+
 header{
     background:url('../images/header.png') no-repeat;
     background-size:cover;
@@ -28,4 +37,19 @@ header{
 .navbar-nav .nav-link.active{
     font-weight:bold;
     color:white;
+}
+h1{
+    font-family: proxb;
+    font-size: 3rem;
+}
+#intro p{
+    font-size:18px;
+    font-family:proxr;
+}
+#intro button{
+    font-size:18px;
+    font-family:proxl;
+}
+button:hover{
+    background:red;
 }
