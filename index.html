@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Dronezone</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-<header id="topheader" class="container-fluid vh-100">
+<header class="container-fluid vh-100" id="topheader">
     <div class="row">
         <div class="col-lg-8 offset-lg-2 position-relative vh-100">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand text-white" href="#"><span>Drone</span>Zone</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                            class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                            data-bs-toggle="collapse" type="button">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a aria-current="page" class="nav-link active" href="#">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About</a>
@@ -42,13 +45,18 @@
                     </div>
                 </div>
             </nav>
-            <div id="intro" class="position-absolute top-50 start-50 translate-middle text-center text-white">
-              <h1>Film your event with us!</h1>
-                <p id="slogan" class="text-white-50 pb-60 pt-20">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
+            <div class="position-absolute top-50 start-50 translate-middle text-center text-white" id="intro">
+                <h1>Film your event with us!</h1>
+                <p class="text-white-50 pb-60 pt-20" id="slogan">Pellentesque eget nunc sit amet urna ullamcorper
+                    fermentum et eu leo.
                     Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
                 <div>
-                    <button class="rounded-pill bg-white border border-1 border-white px-4 py-2 text-danger">Ask for a price</button>
-                    <button class="rounded-pill px-4 py-2 bg-transparent border border-1 border-white text-white"><i class="bi bi-caret-right-fill text-white"></i>Watch video</button>
+                    <button class="rounded-pill bg-white border border-1 border-white px-4 py-2 text-danger">Ask for a
+                        price
+                    </button>
+                    <button class="rounded-pill px-4 py-2 bg-transparent border border-1 border-white text-white"><i
+                            class="bi bi-caret-right-fill text-white"></i>Watch video
+                    </button>
                 </div>
             </div>
             <div class="mac-mouse position-absolute bottom-0 start-50 translate-middle bg-white rounded-pill bg-opacity-50">
@@ -65,87 +73,120 @@
         <section class="col-lg-8 offset-lg-2 text-center my-drones">
             <div class="row ">
                 <article class="col-lg-3 px-4 px-lg-1">
-                    <img src="assets/images/drone.png" alt="drone">
+                    <img alt="drone" src="assets/images/drone.png">
                     <header>
                         <h2 class="gradient-text">From air</h2>
                     </header>
                     <p class="fontp18">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </article>
                 <article class="col-lg-3 px-4 px-lg-1">
-                    <img src="assets/images/drone-1.png" alt="drone">
+                    <img alt="drone" src="assets/images/drone-1.png">
                     <header>
                         <h2 class="gradient-text">Best drones</h2>
                     </header>
                     <p class="fontp18">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </article>
                 <article class="col-lg-3 px-4 px-lg-1">
-                    <img src="assets/images/control.png" alt="drone">
+                    <img alt="drone" src="assets/images/control.png">
                     <header>
                         <h2 class="gradient-text">Speed</h2>
                     </header>
                     <p class="fontp18">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </article>
                 <article class="col-lg-3 px-4 px-lg-1">
-                    <img src="assets/images/propeller.png" alt="drone">
+                    <img alt="drone" src="assets/images/propeller.png">
                     <header>
                         <h2 class="gradient-text">Long range</h2>
                     </header>
                     <p class="fontp18">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </article>
             </div>
-            <button id="btnblue" class="btn text-white rounded-pill px-4 py-2 btnbluetop">Ask for price</button>
+            <button class="btn btnblue text-white rounded-pill px-4 py-2 btnbluetop">Ask for price</button>
 
 
         </section>
     </div>
-    <section id="nature" class="row my-drones">
+    <section class="row my-drones" id="nature">
         <div class="col-lg-8 offset-lg-2">
             <div class="row">
                 <div class="col-lg-8">
                     <header>
                         <h2 class="gradient-text">Nature from the air</h2>
                     </header>
-                    <p>Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer bibendum eget metus ac accumsan. Integer sit amet lacus egestas, semper est quis, viverra ex.</p>
+                    <p>Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer bibendum eget metus ac
+                        accumsan. Integer sit amet lacus egestas, semper est quis, viverra ex.</p>
                     <div class="row mt-5">
                         <div class="col-12 d-flex flex-wrap">
                             <article class="natureitem d-flex order-lg-1">
-                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">1</p>
-                                <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
+                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">
+                                    1</p>
+                                <p class="fontp14">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
+                                    Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
                             </article>
                             <article class="natureitem d-flex order-lg-3">
-                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">2</p>
-                                <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
+                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">
+                                    2</p>
+                                <p class="fontp14">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
+                                    Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
                             </article>
                             <article class="natureitem d-flex order-lg-5">
-                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">3</p>
-                                <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
+                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">
+                                    3</p>
+                                <p class="fontp14">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
+                                    Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
                             </article>
                             <article class="natureitem d-flex order-lg-2">
-                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">4</p>
-                                <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
+                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">
+                                    4</p>
+                                <p class="fontp14">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
+                                    Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
                             </article>
                             <article class="natureitem d-flex order-lg-4">
-                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">5</p>
-                                <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
+                                <p class="rounded-circle border border-1 border-secondary align-self-center px-2 me-4">
+                                    5</p>
+                                <p class="fontp14">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
+                                    Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
                             </article>
                         </div>
 
                     </div>
-            </div>
+                </div>
 
             </div>
         </div>
+    </section>
+    <section id="nature2">
+        <article class="row bg-secondary bg-opacity-25">
+            <div class="col-lg-6">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vPhg6sc1Mk4?si=ubq7a_tAlSbRIzF-" title="YouTube video player" frameborder="0" allow="autoplay;"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6 my-auto">
+                    <header>
+                        <h2 class="gradient-text">Nature from the air</h2>
+                    </header>
+                    <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci nec ultricies sem efficitur quis. Integer bibendum eget metus ac accumsan.</p>
+                    <button class="btn btnblue text-white rounded-pill px-4">Ask for price</button>
+            </div>
+        </article>
     </section>
 
 </main>
 
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelector('.play-button').addEventListener('click', function (e) {
+        e.preventDefault(); // Voorkom standaardgedrag van de link
+        var videoContainer = document.getElementById('video-container');
+        videoContainer.style.display = 'none'; // Verberg het videocontainer na het klikken
+    });
+</script>
 </body>
 </html>
-
 
 
 
