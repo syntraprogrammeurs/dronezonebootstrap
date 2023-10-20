@@ -81,10 +81,17 @@ h1{
     width: 35px;
     height: 50px;
 }
+
+@keyframes scrollAnimation {
+    0% { top: 16px; }
+    50% { top: 20px; }
+    100% { top: 16px; }
+}
 .mouse-wheel {
     width: 3px;
     height: 20px;
     top:16px;
+    animation: scrollAnimation 1s infinite;
 }
 .btnblue{
     background:#28479a;
