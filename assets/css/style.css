@@ -48,8 +48,10 @@
     color:white;
 }
 .navbar-nav .nav-link.active{
-    font-weight:bold;
     color:white;
+}
+.navbar-nav a:hover{
+    font-weight: bold;
 }
 h1{
     font-family: proxb;
@@ -88,9 +90,37 @@ button:hover{
     padding-left:325px;
     padding-right:45px;
 }
+#signup {
+    background-image: url('../images/Newsletter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:192px 0px;
+}
+.input::placeholder {
+    color: #fff; /* Stel de kleur van de placeholder tekst in */
+    font-size: 14px; /* Stel de lettergrootte van de placeholder tekst in */
+    /* Voeg eventuele andere stijlen toe zoals font-family, etc. */
+}
 
 /*media queries*/
 @media (min-width: 992px) {
+    .navbar-nav{
+        background:transparent !important;
+
+    }
+    .navbar-nav a{
+        color:white !important;
+        font-weight: normal;
+        padding:5px 5px;
+        border:1px solid transparent;
+    }
+    .navbar-nav a:hover{
+        font-weight: normal;
+        padding:5px 5px;
+        border:1px solid white;
+        border-radius:15px;
+    }
+
     .my-drones{
         margin-top:135px;
         margin-bottom:135px;
@@ -104,6 +134,9 @@ button:hover{
     }
     .natureitem{
         width:50%;
+    }
+    .nav-link.rounded-pill.border-1 {
+        border: none;
     }
 
 }
