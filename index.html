@@ -8,6 +8,8 @@
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 <header class="container-fluid vh-100" id="topheader">
@@ -51,9 +53,8 @@
                     fermentum et eu leo.
                     Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
                 <div>
-                    <button class="rounded-pill bg-white border border-1 border-white px-4 py-2 text-danger mb-2 mb-lg-0">Ask for a
-                        price
-                    </button>
+                    <button class="rounded-pill px-4 py-2 text-danger mb-2 mb-lg-0 button-custom">Ask for a price</button>
+
                     <button class="rounded-pill px-4 py-2 bg-transparent border border-1 border-white text-white"><i
                             class="bi bi-caret-right-fill text-white"></i>Watch video
                     </button>
@@ -70,30 +71,38 @@
 </header>
 <main class="container-fluid">
     <div class="row bg-secondary bg-opacity-25">
-        <section class="col-lg-8 offset-lg-2 text-center my-drones">
+        <section class="col-lg-8 offset-lg-2 text-center my-drones pb-5 pb-lg-0">
             <div class="row ">
-                <article class="col-lg-3 px-4 px-lg-1">
+                <article class="col-lg-3 px-4 px-lg-1" data-aos="fade-right"
+                         data-aos-offset="400"
+                         data-aos-easing="ease-in-sine">
                     <img alt="drone" src="assets/images/drone.png">
                     <header>
                         <h2 class="gradient-text">From air</h2>
                     </header>
                     <p class="fontp18">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </article>
-                <article class="col-lg-3 px-4 px-lg-1">
+                <article class="col-lg-3 px-4 px-lg-1" data-aos="fade-down"
+                         data-aos-offset="400"
+                         data-aos-easing="ease-in-sine">
                     <img alt="drone" src="assets/images/drone-1.png">
                     <header>
                         <h2 class="gradient-text">Best drones</h2>
                     </header>
                     <p class="fontp18">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </article>
-                <article class="col-lg-3 px-4 px-lg-1">
+                <article class="col-lg-3 px-4 px-lg-1" data-aos="fade-up"
+                         data-aos-offset="400"
+                         data-aos-easing="ease-in-sine">
                     <img alt="drone" src="assets/images/control.png">
                     <header>
                         <h2 class="gradient-text">Speed</h2>
                     </header>
                     <p class="fontp18">Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </article>
-                <article class="col-lg-3 px-4 px-lg-1">
+                <article class="col-lg-3 px-4 px-lg-1" data-aos="fade-left"
+                         data-aos-offset="400"
+                         data-aos-easing="ease-in-sine">
                     <img alt="drone" src="assets/images/propeller.png">
                     <header>
                         <h2 class="gradient-text">Long range</h2>
@@ -111,9 +120,9 @@
             <div class="row">
                 <div class="col-lg-8">
                     <header>
-                        <h2 class="gradient-text">Nature from the air</h2>
+                        <h2 class="gradient-text text-center text-lg-start">Nature from the air</h2>
                     </header>
-                    <p>Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer bibendum eget metus ac
+                    <p class="px-4 px-lg-0 text-secondary">Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer bibendum eget metus ac
                         accumsan. Integer sit amet lacus egestas, semper est quis, viverra ex.</p>
                     <div class="row mt-5">
                         <div class="col-12 d-flex flex-wrap">
@@ -162,7 +171,7 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/gYO1uk7vIcc?si=UmGHBclRSMEbZs9k" title="YouTube video player" frameborder="0" allow="autoplay;"></iframe>
                 </div>
             </div>
-            <div class="col-lg-6 my-auto p-0">
+            <div class="col-lg-6 my-lg-auto my-5">
                 <div class="ms-lg-5 mx-auto w-75">
                     <header>
                         <h2 class="gradient-text">City from the air</h2>
@@ -180,10 +189,10 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/vPhg6sc1Mk4?si=ubq7a_tAlSbRIzF-" title="YouTube video player" frameborder="0" allow="autoplay;"></iframe>
                 </div>
             </div>
-            <div class="col-lg-6 my-auto order-lg-1 p-0">
+            <div class="col-lg-6 my-lg-auto my-5 order-lg-1">
                 <div class="ms-lg-auto mx-auto w-75 pe-lg-5">
                     <header>
-                        <h2 class="gradient-text">City from the air</h2>
+                        <h2 class="gradient-text">Nature from the air</h2>
                     </header>
                     <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci nec ultricies sem efficitur quis. Integer bibendum eget metus ac accumsan.</p>
                     <button class="btn btnblue text-white rounded-pill px-4">Ask for price</button>
@@ -193,7 +202,7 @@
         </article>
     </section>
     <section id="signup" class="row">
-        <div  class="col-10 offset-1 text-center">
+        <div  class="col-12 text-center">
             <h2 class="mb-5 text-white">Sign up for our newsletter</h2>
             <div id="email" class="d-flex align-content-center justify-content-center">
                 <div class="bg-transparent border border-1 border-white rounded-pill">
@@ -216,7 +225,10 @@
 <script crossorigin="anonymous"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
 

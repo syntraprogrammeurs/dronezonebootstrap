@@ -65,9 +65,18 @@ h1{
     font-size:18px;
     font-family:proxl;
 }
-button:hover{
-    background:red;
+.button-custom {
+    background-color: white;
+    color: #dc3545; /* Standaard tekstkleur */
+    border: 1px solid white;
+    transition: background ease 2s, color 2s; /* Voegt een overgangseffect toe */
 }
+
+.button-custom:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); /* Witte achtergrond met verloop van links naar rechts */
+    color: white; /* Tekstkleur wordt wit bij hover */
+}
+
 .mac-mouse {
     width: 35px;
     height: 50px;
@@ -101,7 +110,11 @@ button:hover{
     font-size: 14px; /* Stel de lettergrootte van de placeholder tekst in */
     /* Voeg eventuele andere stijlen toe zoals font-family, etc. */
 }
-
+.input:focus {
+    outline: none; /* Verwijdert de standaard focus-stijl */
+    border: none;
+    color:#fff;
+}
 /*media queries*/
 @media (min-width: 992px) {
     .navbar-nav{
